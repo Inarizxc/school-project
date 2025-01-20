@@ -10,8 +10,8 @@ pkgs.mkShell {
     python313Packages.tkinter
     python313Packages.openpyxl
 
-    python313Packages.pyinstaller
-    python311Packages.nuitka
+    # python313Packages.pyinstaller
+    # python311Packages.nuitka
   ];
   shellHook = ''
     echo ""
